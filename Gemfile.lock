@@ -6,7 +6,12 @@ PATH
 GEM
   remote: https://rubygems.org/
   specs:
+    power_assert (1.1.0)
     rack (1.6.8)
+    rack-test (0.7.0)
+      rack (>= 1.0, < 3)
+    test-unit (3.2.5)
+      power_assert
 
 PLATFORMS
   ruby
@@ -14,6 +19,8 @@ PLATFORMS
 DEPENDENCIES
   bloc_works!
   rack (~> 1.6)
+  rack-test (~> 0.6)
+  test-unit (~> 3.2)
 
 BUNDLED WITH
    1.14.6
